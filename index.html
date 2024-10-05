@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+    <title>AnimeDojo</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
-            <ul>
-                <li class="navbar__items">Peliculas</li>
-                <li class="navbar__items">Series de TV</li>
-                <li class="navbar__items">Niños y Familia</li>
-                <li class="navbar__items">Buscar</li>
-                <li class="navbar__items">Episodios gratis</li>
-            </ul>
-            <div class="buttons__container">
-                <a href="https://auth.max.com/login" target="_blank">Ingresar</a>
-                <a class="btn-sucribe" href="https://auth.max.com/product" target="_blank">Suscribete ahora</a>
+            <div class="img-logo__container">
+                <img src="./img/logo.png" alt="">
             </div>
+            <a class="logo" href="./index.html">animeDojo</a>
+            <ul>
+                <li class="navbar__items">
+                    <a href="">Peliculas</a>
+                </li>
+                <li class="navbar__items">
+                    <a href="">Series de TV</a>
+                </li>
+                <li class="navbar__items">
+                    <a href="">Buscar</a>
+                </li>
+                <li class="navbar__items">
+                    <a href="">Episodios gratis</a>
+                </li>
+            </ul>
         </nav>
+        <div class="buttons__container">
+            <a class="btn-login" href="https://auth.max.com/login" target="_blank">Ingresar</a>
+            <a class="btn-sucribe" href="https://auth.max.com/product" target="_blank">Suscribete ahora</a>
+        </div>
     </header>
     <main class="main__menu">
         <section class="banner">
             <img src="./img/kimetsu.png" alt="Demon Slayer photo">
         </section>
-        <section class="js-series" ></section>
+        <section class="js-series"></section>
     </main>
     <script src="./js/app.js"></script>
 </body>
+
 </html>
