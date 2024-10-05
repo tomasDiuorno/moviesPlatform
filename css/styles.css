@@ -11,6 +11,7 @@ header{
     height: 4em;
     padding: 1em;
     position: absolute;
+    z-index: 9;
     justify-content: space-between;
     display: flex;
 }
@@ -96,6 +97,15 @@ header{
 /*----------INICIO MAIN----------*/
 main{
     width: 100%;
+}
+.container__carrousel{
+    display: block;
+}
+.banner{
+    position: absolute;
+}
+.container__description{
+    position: relative;
 }
 .banner img{
     width: 100%;
