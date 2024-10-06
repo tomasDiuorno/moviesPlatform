@@ -95,17 +95,12 @@ header{
 /*----------FIN HEADER----------*/
 
 /*----------INICIO MAIN----------*/
-main{
+.main__menu{
     width: 100%;
+    height: 100%;
 }
-.container__carrousel{
-    display: block;
-}
-.banner{
+.container-carrousel{
     position: absolute;
-}
-.container__description{
-    position: relative;
 }
 .banner img{
     width: 100%;
