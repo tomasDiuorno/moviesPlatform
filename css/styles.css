@@ -95,13 +95,7 @@ header{
 /*----------FIN HEADER----------*/
 
 /*----------INICIO MAIN----------*/
-.main__menu{
+.main{
     width: 100%;
     height: 100%;
-}
-.container-carrousel{
-    position: absolute;
-}
-.banner img{
-    width: 100%;
 }
