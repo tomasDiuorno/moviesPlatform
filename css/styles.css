@@ -28,7 +28,7 @@ header{
 }
 .logo{
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1em;
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
     font-style: normal;
@@ -44,16 +44,16 @@ header{
     align-items: center;
     list-style-type: none;
     text-transform: uppercase;
-    font-style: normal;
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 700;
-    font-size: 1em;
-    font-family: Max Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-style: normal;
     gap: 1em;
 }
 .navbar ul li a{
     text-decoration: none;
     color: #f5f5f5;
     transition: .5s;
+    font-size: .875em;
 }
 .navbar ul li a:hover{
     color: #AD49E1;
@@ -69,10 +69,10 @@ header{
     text-decoration: none;
     color: #f5f5f5;
     text-transform: uppercase;
-    font-style: normal;
     font-size: .875em;
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 700;
-    font-family: Max Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-style: normal;    
 }
 .btn-sucribe, .btn-episodes{
     background-color: #AD49E1;
@@ -134,5 +134,6 @@ footer{
     font-family: Max Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     font-weight: 200;
     font-size: .75em;
+    padding-bottom: 2em;
 }
 /*----------FIN FOOTER----------*/
