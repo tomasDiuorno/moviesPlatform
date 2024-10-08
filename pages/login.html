@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Icono Pestaña -->
-    <link rel="icon" type="image/png" href="./img/logo.png">
+    <link rel="icon" type="image/png" href="../img/logo.png">
 
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/login.css">
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,122 +29,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap" rel="stylesheet">
-    <title>AnimeDojo</title>
+    
+    <title>Document</title>
 </head>
-
 <body>
-    <header>
-        <nav class="navbar">
+    <header class="header__login">
+        <nav class="navbar navbar__login">
             <div class="img-logo__container">
-                <img src="./img/logo.png" alt="">
+                <img src="../img/logo.png" alt="">
             </div>
-            <a class="logo" href="./index.html">animeDojo</a>
-            <ul>
-                <li class="navbar__items">
-                    <a href="">Peliculas</a>
-                </li>
-                <li class="navbar__items">
-                    <a href="">Series de TV</a>
-                </li>
-                <li class="navbar__items">
-                    <a href="">Buscar</a>
-                </li>
-                <li class="navbar__items">
-                    <a href="">Episodios gratis</a>
-                </li>
-            </ul>
+            <a class="logo" href="../index.html">animeDojo</a>
         </nav>
-        <div class="buttons__container">
-            <a class="btn-login btn" href="./pages/login.html">Ingresar</a>
-            <a class="btn-sucribe btn" href="https://auth.max.com/product" target="_blank">Suscribete ahora</a>
-        </div>
     </header>
-    <main class="main__menu">
-        <section class="carrousel__container">
-            <div class="banner__container" id="banner-1">
-                <a href="#banner-3">
-                    <i class="fa-solid fa-angle-left"></i>
-                </a>
-                <div class="banner">
-                    <img src="./img/kimetsu.png" alt="Demon Slayer photo">
+    <main class="main__login">
+        <div class="form__container">
+            <h1 class="login__title">Inicio de sesion</h1>
+            <form method="post">
+                <div class="username">
+                    <input type="text" placeholder="Username" required>
                 </div>
-                <div class="banner__box">
-                    <h1 class="banner__title">Kimetsu no Yaiba</h1>
-                    <p class="description">Estamos en la era Taisho de Japón. Tanjiro, un joven que se gana la vida
-                        vendiendo carbón, descubre un día que su familia ha sido asesinada por un demonio. Para empeorar las
-                        cosas, su hermana menor Nezuko, la única superviviente de la masacre, ha sufrido una transformación
-                        en demonio.
-                    </p>
-                    <div class="episodes__container">
-                        <a class="btn btn-episodes" href="">Ver episodios</a>
-                        <i class="fa-regular fa-bookmark"></i>
-                    </div>
+                <div class="password">
+                    <input type="password" placeholder="Password" required>
                 </div>
-                <a href="#banner-2">
-                    <i class="fa-solid fa-angle-right"></i>
-                </a>
-            </div>
-            <div class="banner__container" id="banner-2">
-                <a href="#banner-1">
-                    <i class="fa-solid fa-angle-left"></i>
-                </a>
-                <div class="banner">
-                    <img src="./img/chainsaw-man.jpg" alt="Demon Slayer photo">
+                <div class="forgot-password">
+                    <a href="#">¿Olvido su contraseña?</a>
                 </div>
-                <div class="banner__box">
-                    <h1 class="banner__title"><img src="./img/logo_chainsawman.png" alt=""></h1>
-                    <p class="description">Denji es un adolescente que vive con un demonio motosierra llamado Pochita. Para pagar la deuda que le dejó su padre tras su muerte, ha tenido que ganarse el pan como puede matando demonios y vendiendo sus cadáverse a la mafia, aunque su vida siempre ha sido miserable.
-
-                        Cuando una traición provoca la muerte de Denji, Pochita hace un contrato con él y Denji revive como "Chainsaw Man", un ser humano con el corazón de un demonio.
-                    </p>
-                    <div class="episodes__container">
-                        <a class="btn btn-episodes" href="">Ver episodios</a>
-                        <i class="fa-regular fa-bookmark"></i>
-                    </div>
-                </div>
-                <a href="#banner-3">
-                    <i class="fa-solid fa-angle-right"></i>
-                </a>
-            </div>
-            <div class="banner__container" id="banner-3">
-                <a href="#banner-2">
-                    <i class="fa-solid fa-angle-left"></i>
-                </a>
-                <div class="banner">
-                    <img src="./img/one-piece.jpg" alt="Demon Slayer photo">
-                </div>
-                <div class="banner__box">
-                    <h1 class="banner__title">Kimetsu no Yaiba</h1>
-                    <p class="description">Estamos en la era Taisho de Japón. Tanjiro, un joven que se gana la vida
-                        vendiendo carbón, descubre un día que su familia ha sido asesinada por un demonio. Para empeorar las
-                        cosas, su hermana menor Nezuko, la única superviviente de la masacre, ha sufrido una transformación
-                        en demonio.
-                    </p>
-                    <div class="episodes__container">
-                        <a class="btn btn-episodes" href="">Ver episodios</a>
-                        <i class="fa-regular fa-bookmark"></i>
-                    </div>
-                </div>
-                <a href="#banner-1">
-                    <i class="fa-solid fa-angle-right"></i>
-                </a>
-            </div>
-        </section>
-        <section class="recomendations">
-            <h2 class="recomendations__title">Sugerencias para ti</h2>
-            <div class="recomendations__billboard">
-                <div class="billboard-card"></div>
-                <div class="billboard-card"></div>
-                <div class="billboard-card"></div>
-                <div class="billboard-card"></div>
-                <div class="billboard-card"></div>
-                <div class="billboard-card"></div>
-                <div class="billboard-card"></div>
-                <div class="billboard-card"></div>
-                <div class="billboard-card"></div>
-                <div class="billboard-card"></div>
-            </div>
-        </section>
+                <input type="submit" value="iniciar" class=" btn log-button">
+                <a class="btn-sucribe btn" href="https://auth.max.com/product" target="_blank">Suscribete ahora</a>
+            </form>
+        </div>
     </main>
     <footer>
         <div class="footer-sections__container">
@@ -155,7 +66,7 @@
                 <nav class="navfooter">
                     <ul>
                         <li>
-                            <a href="./index.html">Inicio</a>
+                            <a href="../index.html">Inicio</a>
                         </li>
                         <li>
                             <a href="">Mas popular</a>
@@ -253,9 +164,5 @@
         </div>
         <p class="copyrights">tomasDiuorno | ©AnimeDojo, LLC</p>
     </footer>
-    <script src="./js/app.js"></script>
 </body>
-
-<!--<section class="js-series"></section>-->
-
 </html>

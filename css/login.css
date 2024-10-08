@@ -1,0 +1,58 @@
+.form__container{
+    position: absolute;
+    top: 10%;
+    background-color: rgb(255, 255, 255);
+    width: 25em;
+    height: fit-content;
+    padding: 1em;
+}
+.login__title{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: .04em solid #7b7b7b;
+    padding: .5em;
+}
+.form__container form{
+    padding: .8em 2em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.username input, .password input{
+    font-size: 1em;
+    border-style: none;
+    border-bottom: 1px solid grey;
+    padding: .3em;
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.1em;
+    outline: none;
+    background-color: transparent;
+}
+.log-button{
+    border-style: none;
+    color: #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+    width: 100%;
+}
+.log-button:hover{
+    background-color: rgba(190, 190, 190, 0.5);
+}
+.forgot-password a{
+    color: #000000;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: .875em;
+}
+.forgot-password a:hover{
+    text-decoration: underline;
+}
