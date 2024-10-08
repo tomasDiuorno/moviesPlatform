@@ -40,6 +40,12 @@
 .banner__title img{
     width: 100%;
 }
+.logo__kimetsu img{
+    width: 70%;
+}
+.logo-kimetsu{
+    width: 60%;
+}
 .btn-episodes{
     width: 20em;
     text-align: center;
