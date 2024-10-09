@@ -32,19 +32,14 @@
     font-size: .95em;
 }
 .banner__title{
-    font-family: "Bangers", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 3.2em;
+    display: flex;
+    justify-content: center;
 }
 .banner__title img{
     width: 100%;
 }
 .logo__kimetsu img{
     width: 70%;
-}
-.logo-kimetsu{
-    width: 60%;
 }
 .btn-episodes{
     width: 20em;
@@ -99,19 +94,36 @@
 /*----------FIN BANNER----------*/
 
 /*----------RECOMENDACIONES----------*/
+.recomendations{
+    padding: 2em;
+}
 .recomendations__billboard{
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    scrollbar-width: none;
-    position: relative;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-around;
 }
 .billboard-card{
-    flex: 1 0 auto;
-    margin: 0 50px;
-    background-color: #ad49e1;
-    width: 250px;
-    height: 330px;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+    text-decoration: none;
 }
-
+.recomendations__title{
+    padding: 1em;
+}
+.billboard-card img{
+    width: 100%;
+    transition: all .5s;
+}
+.billboard-card img:hover{
+    transform: scale(1.03);
+}
+.subtitle__clasification{
+    color: #8a8a8a;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: .8em;
+}
 /*----------FIN RECOMENDACIONES----------*/
