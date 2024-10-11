@@ -1,3 +1,14 @@
+.main__login{
+    height: 80vh;
+    background-image: url(../img/backgrounds/fondo-humo-diseno-abstracto-negro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 .form__container{
     position: absolute;
     top: 10%;

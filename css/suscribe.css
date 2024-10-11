@@ -1,0 +1,23 @@
+.main__suscribe{
+    height: 80vh;
+    background-color: #000000;
+    background: linear-gradient(180deg, #000000, #5b1481, #ad49e1, #5b1481, #000000);
+}
+.suscribe-title__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.suscribe-title__container h1{
+    padding: 2em 1em 0 1em;
+}
+.plans__container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+.plan_container{
+    
+}
