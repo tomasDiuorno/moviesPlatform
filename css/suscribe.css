@@ -18,9 +18,9 @@
     justify-content: center;
 }
 .suscribe-title__container h2{
-    padding: 2em 1em 0 1em;
     text-align: center;
     font-size: 3em;
+    padding: 1.5em 0 0 0;
 }
 .show-me-plans__container{
     padding: 2em;
@@ -39,14 +39,12 @@
 .benefits__container{
     display: flex;
     justify-content: center;
-    gap: 1em;
-    padding: 2em 20em 0;
     height: 45vh;
 }
 .benefits-block{
-    width: 100%;
+    max-width: 16em;
     height: 100%;
-    padding: 2em;
+    padding: 1em;
     border-radius: 1em;
     display: flex;
     flex-direction: column;
@@ -94,15 +92,32 @@
 /*----------FIN BENEFICIOS----------*/
 
 /*----------PLANES----------*/
-.plans__container{
+.monthly__plans__container{
     width: 100%;
     display: flex;
     gap: 2%;
     justify-content: center;
-    padding: 5% 0;
+    padding: 2% 0 5%;
 }
-.plans__container h2{
+.monthly__plans__container h2{
     font-size: 2em;
+}
+.plan-selector__container{
+    width: 100%;
+    justify-content: center;
+    padding: 1em .5em;
+    display: flex;
+    gap: .5em;
+    color: #f5f5f5;
+}
+.plan-selector__container a{
+    color: #8a8a8a;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.monthly:hover, .annual:hover{
+    text-decoration: underline;
+    color: #f5f5f5;
 }
 .plan__container{
     text-align: center;
