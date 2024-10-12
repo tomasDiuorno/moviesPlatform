@@ -99,7 +99,7 @@
     justify-content: center;
     padding: 2% 0 5%;
 }
-.monthly__plans__container h2{
+.monthly__plans__container h2, .annual__plans__container h2{
     font-size: 2em;
 }
 .plan-selector__container{
