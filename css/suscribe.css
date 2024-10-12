@@ -92,7 +92,7 @@
 /*----------FIN BENEFICIOS----------*/
 
 /*----------PLANES----------*/
-.monthly__plans__container{
+.monthly__plans__container, .annual__plans__container{
     width: 100%;
     display: flex;
     gap: 2%;
@@ -110,10 +110,13 @@
     gap: .5em;
     color: #f5f5f5;
 }
-.plan-selector__container a{
+.plan-selector__container button{
     color: #8a8a8a;
     font-size: 1.2em;
     text-decoration: none;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
 }
 .monthly:hover, .annual:hover{
     text-decoration: underline;
