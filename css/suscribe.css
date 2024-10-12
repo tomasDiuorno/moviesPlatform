@@ -60,6 +60,10 @@
     font-size: 1.3em;
     text-align: center;
 }
+.benefits-block p a{
+    color: #ad49e1;
+    text-decoration: none;
+}
 .fa-clock{
     color: #ad49e1;
     font-size: 5em;
@@ -171,5 +175,47 @@
     color: #ad49e1;
 }
 /*----------FIN PLANES----------*/
+
+/*----------MULTIPLATAFORMA----------*/
+.multiplatform__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 0 10em;
+    height: 60vh;
+}
+.multiplatform-text__container{
+    width: 100%;
+    color: #f5f5f5;
+    padding-left: 8em;
+}
+.multiplatform-image__container{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.background__multiplatform-image{
+    width: 70%;
+    position: relative;
+    padding-bottom: 2em;
+}
+.divices-img{
+    position: absolute;
+    bottom: 0;
+}
+.fa-play{
+    color: #ad49e1;
+}
+/*----------FIN MULTIPLATAFORMA----------*/
+
+#divices-clarify__container{
+    width: 100%;
+    text-align: center;
+    color: #f5f5f5;
+    padding: 5em 0;
+}
 
 /*----------FIN MAIN SUSCRIPCION----------*/
