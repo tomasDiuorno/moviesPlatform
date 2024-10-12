@@ -1,25 +1,23 @@
 .main__login{
     height: 80vh;
-    background-image: url(../img/backgrounds/fondo-humo-diseno-abstracto-negro.jpg);
+    background-image: url(../img/backgrounds/pikaso_edit.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .form__container{
-    position: absolute;
-    top: 10%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255);
     width: 25em;
     height: fit-content;
     padding: 1em;
 }
 .login__title{
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
+    color: rgb(37, 37, 37);
+    font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
     text-align: center;
