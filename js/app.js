@@ -1,10 +1,15 @@
 let annualBtn = document.getElementById('annual-btn');
 let monthlyBtn = document.getElementById('monthly-btn');
+let discount = document.querySelectorAll('.discount-container');
+
+monthlyBtn.addEventListener('click', changeMonthlyPrice);
+annualBtn.addEventListener('click', changeAnnualPrice);
 
 function changeAnnualPrice(){
     let priceOne = document.getElementById('plan-price-1');
     let priceTwo = document.getElementById('plan-price-2');
     let priceThree = document.getElementById('plan-price-3');
+
 
     monthlyBtn.style.color = "#8a8a8a"
     annualBtn.style.color = "#f5f5f5"
