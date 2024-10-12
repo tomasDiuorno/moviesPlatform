@@ -167,6 +167,9 @@
     flex-direction: column;
     gap: .5em;
 }
+.fa-check{
+    color: #ad49e1;
+}
 /*----------FIN PLANES----------*/
 
 /*----------FIN MAIN SUSCRIPCION----------*/
