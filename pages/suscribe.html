@@ -74,16 +74,16 @@
                 <h2>Elige tu Plan</h2>
             </div>
             <div class="plan-selector__container">
-                <button class="monthly monthly-btn">Mensual</button>
+                <button id="monthly-btn" onclick="changeMonthlyPrice()">Mensual</button>
                 <span>|</span>
-                <button class="annual annual-btn">Anual</button>
+                <button id="annual-btn" onclick="changeAnnualPrice()">Anual</button>
             </div>
             <div class="general-plans__container">
                 <section class="monthly__plans__container">
                     <div class="plan__container">
                         <h2>Estandar</h2>
                         <div class="plan__price">
-                            <p>ARS 3,599.00/mes</p>
+                            <p id="plan-price-1">ARS 3,599.00/mes</p>
                             <span class="tax-clarification">+ impuestos aplicables</span>
                         </div>
                         <div class="suscribe-description__container">
@@ -99,7 +99,7 @@
                     <div class="plan__container">
                         <h2>Fan</h2>
                         <div class="plan__price">
-                            <p>ARS 4,499.00/mes</p>
+                            <p id="plan-price-2">ARS 4,499.00/mes</p>
                             <span class="tax-clarification">+ impuestos aplicables</span>
                         </div>
                         <div class="suscribe-description__container">
@@ -119,69 +119,7 @@
                     <div class="plan__container">
                         <h2>Otaku</h2>
                         <div class="plan__price">
-                            <p>ARS 5,399.00/mes</p>
-                            <span class="tax-clarification">+ impuestos aplicables</span>
-                        </div>
-                        <div class="suscribe-description__container">
-                            <p>Disfruta de todo el catálogo de Crunchyroll sin anuncios y de los nuevos episodios poco después de su transmisión en Japón. <a href="">*</a></p>
-                        </div>
-                        <ul class="plan-details__container">
-                            <li class="plan-details">
-                                <i class="fa-solid fa-check"></i>
-                                Ve anime en 4 dipositivos a la vez
-                            </li>
-                            <li class="plan-details">
-                                <i class="fa-solid fa-check"></i>
-                                Contenido sin conexión
-                            </li>
-                            <li class="plan-details">
-                                <i class="fa-solid fa-check"></i>
-                                Accede a Crunchyroll Game Vault, un catálogo de juegos gratuitos
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="annual__plans__container">
-                    <div class="plan__container">
-                        <h2>Estandar</h2>
-                        <div class="plan__price">
-                            <p>ARS 3,599.00/mes</p>
-                            <span class="tax-clarification">+ impuestos aplicables</span>
-                        </div>
-                        <div class="suscribe-description__container">
-                            <p>Disfruta de todo el catálogo de Crunchyroll sin anuncios y de los nuevos episodios poco después de su transmisión en Japón. <a href="">*</a></p>
-                        </div>
-                        <ul class="plan-details__container">
-                            <li class="plan-details">
-                                <i class="fa-solid fa-check"></i>
-                                Ve anime en 1 dispositivo a la vez
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="plan__container">
-                        <h2>Fan</h2>
-                        <div class="plan__price">
-                            <p>ARS 4,499.00/mes</p>
-                            <span class="tax-clarification">+ impuestos aplicables</span>
-                        </div>
-                        <div class="suscribe-description__container">
-                            <p>Disfruta de todo el catálogo de Crunchyroll sin anuncios y de los nuevos episodios poco después de su transmisión en Japón. <a href="">*</a></p>
-                        </div>
-                        <ul class="plan-details__container">
-                            <li class="plan-details">
-                                <i class="fa-solid fa-check"></i>
-                                Ve anime en 4 dipositivos a la vez
-                            </li>
-                            <li class="plan-details">
-                                <i class="fa-solid fa-check"></i>
-                                Contenido sin conexión
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="plan__container">
-                        <h2>Otaku</h2>
-                        <div class="plan__price">
-                            <p>ARS 5,399.00/mes</p>
+                            <p id="plan-price-3">ARS 5,399.00/mes</p>
                             <span class="tax-clarification">+ impuestos aplicables</span>
                         </div>
                         <div class="suscribe-description__container">

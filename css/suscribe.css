@@ -92,14 +92,15 @@
 /*----------FIN BENEFICIOS----------*/
 
 /*----------PLANES----------*/
-.monthly__plans__container, .annual__plans__container{
+
+.monthly__plans__container{
     width: 100%;
     display: flex;
     gap: 2%;
     justify-content: center;
     padding: 2% 0 5%;
 }
-.monthly__plans__container h2, .annual__plans__container h2{
+.monthly__plans__container h2{
     font-size: 2em;
 }
 .plan-selector__container{
@@ -118,7 +119,7 @@
     border-style: none;
     cursor: pointer;
 }
-.monthly:hover, .annual:hover{
+#monthly-btn:hover, #annual-btn:hover{
     text-decoration: underline;
     color: #f5f5f5;
 }
