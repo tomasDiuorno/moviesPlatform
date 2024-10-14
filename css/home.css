@@ -24,10 +24,11 @@
     transform: translate(-50%);
     padding-right: 30%;
     box-sizing: border-box;
-    text-shadow: 10px 5px 10px rgb(0, 0, 0);
+    text-shadow: 1px 0 5px rgb(0, 0, 0);
 }
 .carousel .list .item .content-description .description{
     font-size: 1.3em;
+    text-shadow: 1px 0 5px rgb(0, 0, 0);
 }
 .carousel .list .item .content-description .logo-box{
     font-weight: bold;
