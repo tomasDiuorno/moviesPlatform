@@ -1,3 +1,4 @@
+// INICIO CARRUSEL
 let nextDom = document.getElementById('next');
 let prevDom = document.getElementById('prev');
 let carouselDom = document.querySelector('.carousel');
@@ -36,3 +37,4 @@ function showSlider(type){
         carouselDom.classList.remove('prev');
     }, timeRunning);
 }
+// FIN CARRUSEL

@@ -229,7 +229,7 @@
     font-weight: 800;
     font-size: large;
     transition: .5s;
-    z-index: 100;
+    z-index: 6;
 }
 .arrows button:hover{
     background-color: #ad49e1;
