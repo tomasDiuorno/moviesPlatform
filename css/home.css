@@ -321,6 +321,7 @@
 }
 .overlay .episodes__container{
     padding: .5em;
+    margin-bottom: .5em;
 }
 .billboard-card:hover .overlay{
     height: 100%;
