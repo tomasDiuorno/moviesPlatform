@@ -246,7 +246,11 @@
 }
 .recomendations__billboard{
     display: flex;
-    flex-wrap: wrap;
+    overflow: hidden;
+}
+.sugestion-carousel{
+    display: flex;
+    flex-wrap: nowrap;
     gap: 2em;
     justify-content: space-around;
 }
