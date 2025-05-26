@@ -249,7 +249,7 @@
     justify-content: space-around;
 }
 .billboard-card{
-    width: 15em;
+    width: 16.7em;
     display: flex;
     flex-direction: column;
     gap: .7em;
