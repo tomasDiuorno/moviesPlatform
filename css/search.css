@@ -1,0 +1,30 @@
+.search-menu{
+    height: 80dvh;
+}
+.search-menu .search-section{
+    width: 100%;
+    height: 100%;
+}
+.search-menu .search-section .search-bar__container{
+    width: 100%;
+    height: 6em;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20%;
+}
+.search-menu .search-section .search-bar__container input{
+    width: 100%;
+    border: none;
+    border-bottom: .07em solid #ad49e1;
+    font-size: 2em;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    outline: 0;
+}
+.search-menu .search-section .search-content__container{
+    background-color: #ad49e1;
+    width: 100%;
+    height: 100%;
+}
